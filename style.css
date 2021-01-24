@@ -1,0 +1,278 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+  [class*="col-12"] {
+    width: 100%;
+  }
+}
+
+body {
+	width: 960px;
+	height: 100%;
+	margin: auto;
+	display: block;
+	overflow: auto;
+	background-color: #f7921e;
+}
+
+
+.header_area {
+	width: 960px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	display: block;
+	background-color: #064c66;
+
+
+}
+
+.top_area {
+	width: 960px;
+	background-color: #064c66;
+
+}
+
+.logo_area {
+
+}
+
+.logo {
+	float: left;
+	padding-top: 30px;
+	padding-left: 20px;
+	font-size: 24px;
+	color: #fff;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	
+}
+
+.search_area {
+	margin-top: 60px;
+	padding-left: 100px;
+}
+
+.menu_area {
+	width: 100%;
+	margin-bottom: 0;
+	background-color: #064c66
+	/*background-color: #f7871e;*/
+  	
+}
+
+.menu_area .flex-container {
+  
+  
+}
+.menu_area .menu {
+	width: 940px;
+	text-align: right;
+	margin-bottom: 2px;
+	
+}
+
+.menu_area .menu ul {
+  	float: right;
+
+}
+
+.menu_area .menu ul li {
+
+	display: flex;
+  	align-items: center;
+  	display: inline-block;
+  	margin-top: 45px; 
+  	margin-right: -5px;	
+}
+
+.menu_area .menu ul li a {
+	color: #fff;
+	margin-bottom: 2px;
+	border: 1px solid #064c66;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 14px;
+	padding: 12px 15px;
+	text-transform: uppercase;
+	background-color: #037398;
+
+
+
+	/*float: right;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #4388a3;*/
+}
+
+
+.content_area {
+	width: 100%;
+	/*position: relative;*/
+	margin: 0;
+	height: 100%;
+	background-color: #ecf7f9 
+    
+	
+  	
+}
+
+.content_area .content {
+	/*position: absolute;*/
+	width: 600px;
+	height: auto;
+	margin: 0;
+	margin-top: 1px;
+	padding: 5px;
+	background-color: #ecf7f9;
+	
+}
+
+.content_area .content .main_content
+{
+	background-color: #fff;
+	padding: 10px;
+	padding-bottom: 261px;
+	border: 1px solid #000;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.content_area .content h1 {
+	text-align: left;
+	color: #a0a0a0;
+	font-size: 25px;
+	text-transform: capitalize;
+
+}
+
+.content_area .content hr {
+	border: 1px dashed #a0a0a0;
+	
+}
+
+.content_area .content p{
+	color: #585858;
+	text-align: justify;
+	text-justify: inter-word;
+	
+}
+
+.content_area .sidebar {
+	width: 300px;
+	height: auto;
+	/*margin-left: -210px;*/
+	padding: 10px 0px;
+	margin-top: 1px;
+	margin-left: -260px;
+	color: #000;
+	background-color: #f0f7fd;
+	text-align: justify;
+	text-justify: inter-word;
+	/*border-bottom: 1px solid #000;*/
+}
+
+
+.content_area .sidebar .sidebar_title{
+	/*display: block;*/
+	padding: 1px;
+	background-color: #05314a;
+	color: #fff;
+	font-size: 10px;
+	text-transform: capitalize;
+}
+
+.content_area .sidebar .sidebar_title i {
+	text-align: left;
+    margin-top: 15px;
+    margin-right: 45px;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+.content_area .sidebar .sidebar_title h4 {
+    margin-top: -22px;
+    padding-left: 30px;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+}
+
+
+
+
+
+.content_area .sidebar .sidebar_details {
+	background-color: #f1f1f3;
+	padding:0;
+	margin: 0;
+	text-align: justify;
+	text-justify: inter-word;
+	border: 1px solid #000;
+	
+} 
+
+.content_area .sidebar .sidebar_details p {
+	color: #767676;
+	text-align: justify;
+	text-justify: inter-word;
+	border: 3px solid #dedede;
+	padding: 20px;
+	margin: 5px;
+} 
+
+.content_area .sidebar .sidebar_details ul {
+	padding-left: 20px;
+	color: #606060;
+	text-align: justify;
+	text-justify: inter-word;
+	border: 3px solid #dedede;
+	padding: 20px;
+	margin: 5px;
+}
+
+.footer_area {
+	width: 100%;
+	height: 110px;
+	background-color: #3b6476;
+	/*padding: 45px 0 20px;*/
+	/*font-size: 15px;*/
+    /*line-height: 24px;*/
+  
+}
+.footer_area .rss_feed {
+	width: 100%;
+	height: 110px;
+	float: right;
+}
+
+.footer_area .rss_feed i {
+	
+	text-align: center;
+    margin-top: 30px;
+    margin-right: 45px;
+	width: 20px;
+	height: 20px;
+	font-size: 10px;
+	padding-left: 5px;
+}
+
+.footer_area .rss_feed h6 {
+	text-align: center;
+	margin-top: -20px;
+    padding-left: 30px;
+	width: 20px;
+	height: 20px;
+	font-size: 10px;
+}
